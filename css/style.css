@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: DungGeunMo, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+header, footer, main {
+  text-align: center;
+  background-color: #ffffcd;
+  color: #622828;
+  padding: 20px;
+}
+
+#clock {
+  font-size: 2rem;
+}
+
+#quote {
+  font-style: italic;
+}
+
+#todo-form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#todo-form input{
+  all: unset;
+  box-shadow: 0 0 10px #622828;
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 100px;
+}
+
+li button{
+  all: unset;
+  cursor: pointer;
+}
+
+
+
